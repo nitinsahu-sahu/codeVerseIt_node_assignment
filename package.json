@@ -1,0 +1,50 @@
+{
+  "name": "codeverseit_node_assignment",
+  "version": "1.0.0",
+  "description": "Node apis assignment",
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "JWT",
+    "MongoDB",
+    "Socket.IO",
+    "Firebase"
+  ],
+  "homepage": "https://github.com/nitinsahu-sahu/codeVerseIt_node_assignment#readme",
+  "bugs": {
+    "url": "https://github.com/nitinsahu-sahu/codeVerseIt_node_assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitinsahu-sahu/codeVerseIt_node_assignment.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "google-auth-library": "^10.6.1",
+    "ioredis": "^5.10.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.3.0",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.1",
+    "nodemon": "^3.1.14",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "redis": "^5.11.0",
+    "socket.io": "^4.8.3",
+    "uuid": "^13.0.0"
+  }
+}
